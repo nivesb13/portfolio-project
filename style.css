@@ -86,8 +86,16 @@
     text-decoration: underline;
   }
 
-  @media (max-widht: 576px) {
-      .small-photo {
-          display: none
-      }
-  }
+  @media (max-width: 576px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1.5;
+    }
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}
