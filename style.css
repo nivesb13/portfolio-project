@@ -85,3 +85,9 @@
   .email-link:hover {
     text-decoration: underline;
   }
+
+  @media (max-widht: 576px) {
+      .small-photo {
+          display: none
+      }
+  }
